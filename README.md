@@ -78,6 +78,12 @@ Many GSOPs are view-dependent and require a Camera COMP reference. All operators
 
 ---
 
+## License
+
+Copyright (c) 2025-2026 Lake Heckaman. All rights reserved.
+
+GSOPs is provided for **alpha testing purposes only**. You may not redistribute, share, or use this software for commercial purposes.
+
 ## Third-Party Licenses
 
-GSOPs includes [TDFam](https://github.com/dotsimulate/TDFam) by Lyell Hintz and Dan Molnar, licensed under the Apache License 2.0.
+Deployed via [TDFam](https://github.com/dotsimulate/TDFam), an open-source TouchDesigner operator-family framework created by Lyell Hintz / dotsimulate and Dan Molnar / function.str. Licensed under the Apache License 2.0.
