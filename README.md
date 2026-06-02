@@ -10,7 +10,7 @@ GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community fra
 
 1. Open your TouchDesigner project
 2. Place the `TDFam_create.tox` component from `TDFam-1.0.1/`
-3. Set the family's `Opfolder` parameter to point at the `tox/GSOP/` directory
+3. Set the family's `Opfolder` parameter to point at the `tox/GSOP/` directory (or wherever you have it downloaded, if the relative path is different)
 4. Toggle `Install` on — GSOPs will appear as a new family in the OP Create dialog
 
 ### Usage Notes
