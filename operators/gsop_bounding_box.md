@@ -1,4 +1,9 @@
-[← Back to Operators](../README.md)
+---
+layout: default
+title: Bounding Box
+parent: Operators
+nav_order: 5
+---
 
 # Bounding Box
 

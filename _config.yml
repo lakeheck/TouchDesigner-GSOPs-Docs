@@ -1,6 +1,14 @@
 title: GSOPs Documentation
 description: Gaussian Splat Operators for TouchDesigner
 baseurl: /TouchDesigner-GSOPs-Docs
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins:
   - jekyll-remote-theme
+
+color_scheme: dark
+
+aux_links:
+  "Lake Heckaman":
+    - "https://www.lakeheckaman.com"
+
+nav_enabled: true

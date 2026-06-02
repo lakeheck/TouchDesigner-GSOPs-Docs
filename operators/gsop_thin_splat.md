@@ -1,4 +1,9 @@
-[← Back to Operators](../README.md)
+---
+layout: default
+title: Thin Splat
+parent: Operators
+nav_order: 8
+---
 
 # Thin Splat
 

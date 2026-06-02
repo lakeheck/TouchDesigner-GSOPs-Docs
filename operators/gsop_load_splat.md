@@ -1,4 +1,9 @@
-[← Back to Operators](../README.md)
+---
+layout: default
+title: Load Splat
+parent: Operators
+nav_order: 3
+---
 
 # Load Splat
 

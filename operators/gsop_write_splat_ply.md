@@ -1,4 +1,9 @@
-[← Back to Operators](../README.md)
+---
+layout: default
+title: Write Splat PLY
+parent: Operators
+nav_order: 4
+---
 
 # Write Splat PLY
 

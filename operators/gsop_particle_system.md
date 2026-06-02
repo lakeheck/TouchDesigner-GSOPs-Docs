@@ -1,4 +1,9 @@
-[← Back to Operators](../README.md)
+---
+layout: default
+title: Convert to ParticleSystem
+parent: Operators
+nav_order: 6
+---
 
 # Convert to ParticleSystem
 

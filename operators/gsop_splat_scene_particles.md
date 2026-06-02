@@ -1,4 +1,9 @@
-[← Back to Operators](../README.md)
+---
+layout: default
+title: Splat Particles Scene
+parent: Operators
+nav_order: 2
+---
 
 # Splat Particles Scene
 
