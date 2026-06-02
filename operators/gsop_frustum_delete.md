@@ -1,9 +1,4 @@
----
-layout: default
-title: Frustum Delete
-parent: Operators
-nav_order: 7
----
+[Back to Operators](../README.md)
 
 # Frustum Delete
 

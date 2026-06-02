@@ -1,15 +1,10 @@
----
-layout: default
-title: Bounding Box
-parent: Operators
-nav_order: 5
----
+[Back to Operators](../README.md)
 
 # Bounding Box
 
 `gsop_bounding_box` · Edit · Filter
 
-A general-use bounding box for constraining splats to a region. This does not copy the geometry back to the CPU — it simply limits which points get passed further down the chain.
+A general-use bounding box for constraining splats to a region. This does not copy the geometry back to the CPU -- it simply limits which points get passed further down the chain.
 
 ## Parameters
 

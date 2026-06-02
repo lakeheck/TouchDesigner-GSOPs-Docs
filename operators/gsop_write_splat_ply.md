@@ -1,9 +1,4 @@
----
-layout: default
-title: Write Splat PLY
-parent: Operators
-nav_order: 4
----
+[Back to Operators](../README.md)
 
 # Write Splat PLY
 
@@ -11,4 +6,4 @@ nav_order: 4
 
 Writes splat data to a .ply file. Currently does NOT support spherical harmonics.
 
-No custom parameters — operates on input splat data.
+No custom parameters -- operates on input splat data.

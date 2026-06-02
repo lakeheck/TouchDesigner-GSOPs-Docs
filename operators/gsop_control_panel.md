@@ -1,9 +1,4 @@
----
-layout: default
-title: Control Panel
-parent: Operators
-nav_order: 12
----
+[Back to Operators](../README.md)
 
 # Control Panel
 

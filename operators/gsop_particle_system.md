@@ -1,9 +1,4 @@
----
-layout: default
-title: Convert to ParticleSystem
-parent: Operators
-nav_order: 6
----
+[Back to Operators](../README.md)
 
 # Convert to ParticleSystem
 

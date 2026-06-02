@@ -1,9 +1,4 @@
----
-layout: default
-title: Splat Particles Scene
-parent: Operators
-nav_order: 2
----
+[Back to Operators](../README.md)
 
 # Splat Particles Scene
 
@@ -11,7 +6,7 @@ nav_order: 2
 
 Usage is similar to `gsop_splat_scene`, with a few additions. It allows mixing between splats: set a Splat A Index and a Splat B Index, then use the Mix parameter to smoothly blend between them. When Blending Any to Any is on, the Mix parameter blends between the A and B splats. When it is off, a texture input determines the splat instead: the texture's 0-1 range is remapped to 0 to (number of splats loaded), and the texture value at each location determines which splat is rendered at that place on screen.
 
-Splat Transform Mode bypasses all animation in the chain so you can visualize the splat itself — most helpful when doing the initial transform and positioning of a splat.
+Splat Transform Mode bypasses all animation in the chain so you can visualize the splat itself -- most helpful when doing the initial transform and positioning of a splat.
 
 ## Gaussian Splat
 

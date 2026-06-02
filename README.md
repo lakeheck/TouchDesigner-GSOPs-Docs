@@ -1,9 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
----
-
 # GSOPs: Gaussian Splat Operators for TouchDesigner
 
 Developed by [Lake Heckaman](https://www.lakeheckaman.com)

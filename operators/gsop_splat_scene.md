@@ -1,9 +1,4 @@
----
-layout: default
-title: Splat Scene
-parent: Operators
-nav_order: 1
----
+[Back to Operators](../README.md)
 
 # Splat Scene
 

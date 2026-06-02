@@ -1,9 +1,4 @@
----
-layout: default
-title: Blowout
-parent: Operators
-nav_order: 9
----
+[Back to Operators](../README.md)
 
 # Blowout
 

@@ -1,9 +1,4 @@
----
-layout: default
-title: Splat Geo
-parent: Operators
-nav_order: 10
----
+[Back to Operators](../README.md)
 
 # Splat Geo
 
@@ -19,7 +14,7 @@ The rendering workhorse for GSOPs, containing all the render-time logic and feat
 - On operator create, a small script back-traces your chain and attempts to find the `gsop_splat_scene` component. If this fails, you will be asked to drag-and-drop it manually.
 - **Detail Bias** is a key quality control: it scales splat opacity by distance-from-camera and screen-space scale, so larger/further splats fade out.
 - Render params like **Alpha Mix** and **Detail Bias** can be applied globally, or driven per-region by a texture.
-- **Bokeh** can be driven globally or per-region from a texture. **Bokeh Alpha Reduction** ties bokeh scale to alpha — pairs well with Detail Bias and animating the focal length.
+- **Bokeh** can be driven globally or per-region from a texture. **Bokeh Alpha Reduction** ties bokeh scale to alpha -- pairs well with Detail Bias and animating the focal length.
 - **Relighting:** enable **Use TD Lighting** to have standard TouchDesigner Light COMPs drive the shader.
 
 ## Parameters
