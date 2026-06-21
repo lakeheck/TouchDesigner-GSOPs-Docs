@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Relighting
 
@@ -7,6 +7,8 @@ Use TouchDesigner LightCOMPs with your splat.
 ![Relighting](images/gsop_relight.png)
 
 <video src="videos/gsop_relight.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_relight.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

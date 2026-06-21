@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Bokeh Depth Slicing
 
@@ -7,6 +7,8 @@ Use the bokeh effect to 'slice' through splats.
 ![Bokeh Depth Slicing](images/gsop_bokeh_slice.png)
 
 <video src="videos/gsop_bokeh_slice.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_bokeh_slice.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

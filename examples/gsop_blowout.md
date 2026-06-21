@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Blowout Optimization
 
@@ -7,6 +7,8 @@ Add space between splats to reduce overlapping geometry in render and improve ef
 ![Blowout Optimization](images/gsop_blowout.png)
 
 <video src="videos/gsop_blowout.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_blowout.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

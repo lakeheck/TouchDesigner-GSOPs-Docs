@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Frustum Delete
 
@@ -7,6 +7,8 @@ Remove splats that are outside of the camera's view, so they do not hit the rend
 ![Frustum Delete](images/gsop_frustum_delete.png)
 
 <video src="videos/gsop_frustum_delete.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_frustum_delete.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

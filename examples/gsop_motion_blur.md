@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Motion Blur
 
@@ -7,6 +7,8 @@ Add 3D motion blur to splats.
 ![Motion Blur](images/gsop_motion_blur.png)
 
 <video src="videos/gsop_motion_blur.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_motion_blur.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

@@ -1,10 +1,12 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Chroma Key
 
 Use color to select which splats are rendered. You can try it out in the interactive viewer window of the example .tox.
 
 <video src="videos/gsop_chroma_key.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_chroma_key.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

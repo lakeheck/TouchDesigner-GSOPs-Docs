@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Alpha Texture Lookup
 
@@ -12,6 +12,8 @@ Use a texture to drive the detail bias and alpha mix parameters.
 ![Alpha Accumulation](images/gsop_alpha_accumulation.png)
 
 <video src="videos/gsop_alpha_texture.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_alpha_texture.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

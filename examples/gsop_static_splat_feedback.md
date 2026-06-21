@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Add Your Own Effects to Any Scene
 
@@ -9,6 +9,8 @@ Easily add custom animation, dynamics or logic to GSOPs scenes using any other P
 ![Custom Effects — Twist](images/gsop_static_splat_feedback_twist.png)
 
 <video src="videos/gsop_static_splat_feedback.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_static_splat_feedback.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

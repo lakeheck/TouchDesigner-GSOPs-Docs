@@ -4,6 +4,12 @@
 
 Easily reduce the splat count to improve render optimization.
 
+![Thin Splat Optimization](images/gsop_thin_splat_example.png)
+
+<video src="videos/gsop_thin_splat_example.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_thin_splat_example.mp4" target="_blank">↗ Open video in new tab</a>
+
 ## Operators
 
 1. `gsop_camera_viewport` — or any TD camera (mind FOV and far clip settings)

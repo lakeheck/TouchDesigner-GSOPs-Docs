@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Bounding Box
 
@@ -7,6 +7,8 @@ Remove splats based on a bounding box, with some options.
 ![Bounding Box](images/gsop_bounding_box.png)
 
 <video src="videos/gsop_bounding_box.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_bounding_box.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

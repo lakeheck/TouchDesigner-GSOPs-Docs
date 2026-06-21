@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Particles Scene Blending Any to Any
 
@@ -7,6 +7,8 @@ Load multiple splats and blend from any to any in real time.
 ![Particles Scene Blending Any to Any](images/gsop_splat_blending_any_to_any.png)
 
 <video src="videos/gsop_splat_blending_any_to_any.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_splat_blending_any_to_any.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 

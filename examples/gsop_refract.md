@@ -1,4 +1,4 @@
-[Back to Examples](README.md)
+﻿[Back to Examples](README.md)
 
 # Refraction
 
@@ -7,6 +7,8 @@ Add refractive geometry to your scene (compatible with environment maps too).
 ![Refraction](images/gsop_refract.png)
 
 <video src="videos/gsop_refract.mp4" controls width="100%"></video>
+
+<a href="videos/gsop_refract.mp4" target="_blank">↗ Open video in new tab</a>
 
 ## Operators
 
