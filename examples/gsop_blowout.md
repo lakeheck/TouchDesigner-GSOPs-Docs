@@ -1,0 +1,27 @@
+[Back to Examples](README.md)
+
+# Blowout Optimization
+
+Add space between splats to reduce overlapping geometry in render and improve efficiency.
+
+![Blowout Optimization](images/gsop_blowout.png)
+
+<video src="videos/gsop_blowout.mp4" controls width="100%"></video>
+
+## Operators
+
+1. `gsop_camera_viewport` — or any TD camera (mind FOV and far clip settings)
+2. `gsop_splat_scene`
+3. `gsop_splat_geo`
+4. renderTOP
+5. `gsop_blowout`
+
+## Process
+
+1. Add the `gsop_blowout` operator between the `gsop_splat_scene` and `gsop_splat_geo` to use a slider to increase blowout
+
+## Notes
+
+Often helpful to engage when you are switching between scenes and want the splat to be much more lightweight while it is 'in the background'.
+
+Useful in combination with `gsop_thin_splat`.
