@@ -81,6 +81,12 @@ Many GSOPs are view-dependent and require a Camera COMP reference. All operators
 |----------|------|-------------|
 | [Control Panel](operators/gsop_control_panel.md) | Filter | HUD for working with GSOPs |
 
+## Examples
+
+Pre-built example networks for common GSOPs workflows — with screenshots and videos.
+
+**[Browse Examples →](examples/README.md)**
+
 ---
 
 ## License
