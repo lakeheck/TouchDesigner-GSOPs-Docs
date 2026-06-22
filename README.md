@@ -9,7 +9,7 @@ Custom operators for loading, editing, rendering, and animating 3D Gaussian Spla
 Download the latest release from **[patreon.com/lakeheckaman](https://patreon.com/lakeheckaman)**. The zip contains:
 
 - `gsop_release_v{version}.tox` — drag-and-drop installer, all operators included
-- `gsops_examples.toe` — example networks (bring your own splats)
+- `gsop_examples.toe` — example networks (bring your own splats)
 
 GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community framework for packaging custom operator families into TouchDesigner's TAB/OP Create menu (developed by Lyell Hintz / dotsimulate and Dan Molnar / Function Store).
 
@@ -17,7 +17,7 @@ GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community fra
 2. Drag `gsop_release_v{version}.tox` into your network
 3. GSOPs will appear as a new family in the TAB/OP Create dialog
 
-To explore examples, open `gsops_examples.toe` separately.
+To explore examples, open `gsop_examples.toe` separately.
 
 ### Usage Notes
 
