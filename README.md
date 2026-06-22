@@ -31,6 +31,14 @@ Many GSOPs are view-dependent and require a Camera COMP reference. All operators
 
 `gsop_splat_scene` serves as the root for a render pipeline — it loads a splat file and holds camera/render references. Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) reference it for camera data.
 
+## Examples
+
+Pre-built example networks for common GSOPs workflows — with screenshots and videos.
+
+**[Browse Examples →](examples/README.md)**
+
+---
+
 ## Operator Categories
 
 | Category | Description |
@@ -80,12 +88,6 @@ Many GSOPs are view-dependent and require a Camera COMP reference. All operators
 | Operator | Type | Description |
 |----------|------|-------------|
 | [Control Panel](operators/gsop_control_panel.md) | Filter | HUD for working with GSOPs |
-
-## Examples
-
-Pre-built example networks for common GSOPs workflows — with screenshots and videos.
-
-**[Browse Examples →](examples/README.md)**
 
 ---
 
