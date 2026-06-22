@@ -93,7 +93,14 @@ Pre-built example networks for common GSOPs workflows — with screenshots and v
 
 Copyright (c) 2025-2026 Lake Heckaman. All rights reserved.
 
-GSOPs is provided for **alpha testing purposes only**. You may not redistribute, share, or use this software for commercial purposes.
+GSOPs is available via Patreon subscription at **[patreon.com/lakeheckaman](https://patreon.com/lakeheckaman)**:
+
+| Tier | Who it's for |
+|------|-------------|
+| **Integrate** | Individual artists and freelancers — personal and commercial use |
+| **Studio** | Studios and teams — commercial use across an organization |
+
+No redistribution, reverse engineering, or sublicensing permitted. **[Full License →](license.md)**
 
 ## Third-Party Licenses
 
