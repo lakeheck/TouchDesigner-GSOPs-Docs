@@ -6,8 +6,9 @@ Custom operators for loading, editing, rendering, and animating 3D Gaussian Spla
 
 ## Quick Start
 
-<video src="examples/videos/gsops_quick_start.mp4" controls width="100%"></video>
+<video src="examples/videos/gsops_quick_start.mp4" controls autoplay loop muted width="100%"></video>
 
+0. Download the latest GSOPs release, unzip it and drop the .tox `gsop_release_vX.X.X` into your network
 1. Drop a **GSOP Splat Scene** or **GSOP Splat Scene Particles** into your network
 2. Set the splat file path parameter to your `.ply` or `.spz` file
 3. Click **Init Splat Render Network** — auto-creates a Splat Geo, GSOP Splat Camera, and Render TOP
@@ -29,6 +30,7 @@ GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community fra
 1. Open your TouchDesigner project
 2. Drag `gsop_release_v{version}.tox` into your network
 3. GSOPs will appear as a new family in the TAB/OP Create dialog
+4. I recommend you save this as a custom startup file by saving the .toe, then going to Edit > Preferences > Custom Startup File and pointing it to the .toe with GSOPs
 
 To explore examples, open `gsop_examples.toe` separately.
 
