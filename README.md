@@ -4,7 +4,20 @@ Developed by [Lake Heckaman](https://www.lakeheckaman.com)
 
 Custom operators for loading, editing, rendering, and animating 3D Gaussian Splats in TouchDesigner.
 
+## Quick Start
+
+<video src="examples/videos/gsops_quick_start.mp4" controls width="100%"></video>
+
+1. Drop a **GSOP Splat Scene** or **GSOP Splat Scene Particles** into your network
+2. Set the splat file path parameter to your `.ply` or `.spz` file
+3. Click **Init Splat Render Network** — auto-creates a Splat Geo, GSOP Splat Camera, and Render TOP
+4. Done — you have a working render pipeline
+
+---
+
 ## Installation
+
+**Prerequisite:** TouchDesigner 2025.32820 or later (see Usage Notes below)
 
 Download the latest release from **[patreon.com/lakeheckaman](https://patreon.com/lakeheckaman)**. The zip contains:
 
@@ -25,12 +38,18 @@ To explore examples, open `gsop_examples.toe` separately.
 2. Should work on macOS — please report issues (some feature limitations may apply).
 3. Intended for use with a Commercial license for full features, but most operators work on Non-Commercial too.
 4. When adding GSOPs, you might notice frame drops. These should be transitory and are due to VRAM re-allocation when dropping new operators.
+5. Be careful as you develop. Gaussian splats and therefore GSOPs eat up VRAM, which can cause TD to crash. 
+    - Monitor your VRAM usage with `nvidia-smi` in the terminal or using the "GPU" icon next to FPS in the TouchDesigner menu
 
 ## Architecture
 
-Many GSOPs are view-dependent and require a Camera COMP reference. All operators in a single splat render setup should reference the same Camera COMP.
+Many GSOPs are view-dependent and require a Camera COMP reference. GSOPs solves this requirement with a `Splatscene` tag on the `gsop_splat_scene` or `gsop_splat_scene_particles` generator GSOPs. 
 
-`gsop_splat_scene` serves as the root for a render pipeline — it loads a splat file and holds camera/render references. Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) reference it for camera data.
+These `Splatscene` generators serve as the root for a render pipeline — normally you should only have one per renderTOP (you may still load in as many splats as possible via sequential parameters). It loads a splat file and holds camera/render references that propograte through the pipeline. 
+
+Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) must reference a `Splatscene` or they will throw errors. These operators all have a pulse parameter to auto-find a splat scene in the network (at the same level), but you can manually assign too via drag and drop.
+
+**If you have any errors in rendering, first check that the `Splatscene` param references are all valid and correct**
 
 ## Examples
 
