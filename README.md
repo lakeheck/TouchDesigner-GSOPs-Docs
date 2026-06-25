@@ -12,7 +12,7 @@ See below for usage, licensing and examples.
 
 ## Quick Start
 
-<video src="examples/videos/gsops_quick_start.mp4" controls autoplay loop muted width="100%"></video>
+<video src="examples/videos/gsop-quick-start.mp4" controls autoplay loop muted width="100%"></video>
 
 0. Download the latest GSOPs release from **[Patreon here](https://www.patreon.com/collection/2236690)**, unzip it and drop the .tox `gsop_release_vX.X.X` into your network
 1. Drop a **[GSOP Splat Scene](operators/gsop_splat_scene.md)** or **[GSOP Splat Scene Particles](operators/gsop_splat_scene_particles.md)** into your network
