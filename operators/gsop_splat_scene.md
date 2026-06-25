@@ -14,6 +14,8 @@ Splats are loaded via the sequential parameters. Inside `gsop_splat_scene` there
 |-----------|-------------|
 | Render TOP (`Rendertop`) | A reference to the Render TOP that is being used to render the Gaussian splat. |
 | Camera (`Camera`) | Read-only. Auto-filled based on the Render TOP selected. |
+| Init Splat Render Network (`Initsplatrendernetwork`) | Pulse to auto-create the rest of the render pipeline — `gsop_splat_geo`, a `gsop_camera_viewport`, and a Render TOP — wired and ready to go. |
+| Open GUI (`Opengui`) | Opens the positioning and camera GUI for this operator. |
 | Resetpulse (`Resetpulse`) | Master reset for the operator. |
 | Recreate All Operators (`Recreateall`) | Pulses the "recreate all" option on the replicator that loads each splat file. |
 | Reset Parameters to Default (`Resetparameterstodefault`) | Currently has no effect for this operator. |
