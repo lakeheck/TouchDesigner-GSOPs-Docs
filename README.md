@@ -1,5 +1,5 @@
 <div align="center">
-<video src="assets/GSOPs_stacked.webm" autoplay loop muted playsinline width="300"></video>
+<img src="assets/GSOPs_stacked_light.svg" width="300" />
 </div>
 
 # GSOPs: Gaussian Splat Operators for TouchDesigner

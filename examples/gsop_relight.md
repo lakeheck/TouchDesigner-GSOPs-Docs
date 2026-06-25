@@ -1,6 +1,6 @@
 ﻿[Back to Examples](README.md)
 
-<img src="../assets/GSOPs_horizontal.png" width="240" />
+<img src="../assets/GSOPs_horizontal_light.png" width="240" />
 
 # Relighting
 
