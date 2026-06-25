@@ -14,7 +14,7 @@ See below for usage, licensing and examples.
 
 <video src="examples/videos/gsops_quick_start.mp4" controls autoplay loop muted width="100%"></video>
 
-0. Download the latest GSOPs release from **[patreon.com/collection/1565627](https://www.patreon.com/collection/1565627)**, unzip it and drop the .tox `gsop_release_vX.X.X` into your network
+0. Download the latest GSOPs release from **[patreon.com/collection/1565627](https://www.patreon.com/collection/2236690)**, unzip it and drop the .tox `gsop_release_vX.X.X` into your network
 1. Drop a **GSOP Splat Scene** or **GSOP Splat Scene Particles** into your network
 2. Set the splat file path parameter to your `.ply` or `.spz` file
 3. Click **Init Splat Render Network** — auto-creates a Splat Geo, GSOP Splat Camera, and Render TOP
@@ -26,7 +26,7 @@ See below for usage, licensing and examples.
 
 **Prerequisite:** TouchDesigner 2025.32820 or later (see Usage Notes below)
 
-Download the latest release from **[patreon.com/collection/1565627](https://www.patreon.com/collection/1565627)**. The zip contains:
+Download the latest release from **[patreon.com/collection/1565627](https://www.patreon.com/collection/2236690)**. The zip contains:
 
 - `gsop_release_v{version}.tox` — drag-and-drop installer, all operators included
 - `examples.toe` — interactive examples browser (bring your own splats)
@@ -126,7 +126,7 @@ Pre-built example networks for common GSOPs workflows — with screenshots and v
 
 Copyright (c) 2025-2026 Lake Heckaman. All rights reserved.
 
-GSOPs is available via Patreon subscription at **[patreon.com/collection/1565627](https://www.patreon.com/collection/1565627)**:
+GSOPs is available via Patreon subscription **[here](https://www.patreon.com/collection/2236690)**:
 
 **Beta:** Currently available to all active **Integrate** tier subscribers. Tier structure is expanding soon:
 

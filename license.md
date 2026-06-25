@@ -2,57 +2,50 @@
 
 # License
 
-GSOPs — Gaussian Splat Operators for TouchDesigner
-Copyright (c) 2025-2026 Lake Heckaman. All rights reserved.
+These terms cover all operators, components, and project files (the "Tools") distributed through this Patreon by Lake Heckaman. By downloading or using the Tools, you agree to them.
 
 ---
 
-## 1. Grant of License
+## 1. Ownership
 
-A valid GSOPs license is granted through an active Patreon subscription at
-[patreon.com/lakeheckaman](https://patreon.com/lakeheckaman). Two license tiers are available:
-
-**Integrate License (Individual/Freelance)**
-Grants a single named user the right to use GSOPs for personal and commercial purposes, including client work and freelance projects. This license covers independent artists, designers, and freelancers working as sole proprietors or individuals.
-
-**Studio License**
-Grants an organization and its employees/contractors the right to use GSOPs for commercial purposes within studio, agency, or team environments. Required when GSOPs is used by or on behalf of a company, studio, or any organization with more than one user. Corresponds to the Studio tier on [patreon.com/lakeheckaman](https://patreon.com/lakeheckaman).
-
-If you are uncertain which license applies, the Studio License is required any time GSOPs is used within or on behalf of a company or organization.
+The Tools are created by and remain the property of Lake Heckaman. Your subscription grants you a license to use them under the terms below. It does not transfer ownership.
 
 ---
 
-## 2. Restrictions
+## 2. What your tier allows
 
-Regardless of license tier, you may NOT:
+**Free (non-commercial):**
+You may use the Tools for personal, non-commercial projects, learning, and experimentation. You may not use them in paid or client work.
 
-- Redistribute, resell, or sublicense this software or any part of it
-- Share access, files, or downloads with users who do not hold a valid license
-- Reverse engineer, decompile, or disassemble this software
-- Modify and redistribute derivative works
-- Remove or alter copyright notices or license terms
-- Use this software after your Patreon subscription lapses
+**Integrate (commercial, solo):**
+You may use the Tools in your own freelance and client work, as an independent individual billing in your own name. This includes work you do for a studio or company as a contracted freelancer, as long as you are the one holding this license and billing in your own name. This license is for one (1) individual user.
 
----
-
-## 3. Termination
-
-This license is valid only while an active, qualifying Patreon subscription is maintained. Cancellation or lapse of subscription terminates the license. Projects completed during an active subscription period may continue to be used and delivered; new projects require an active subscription.
+**Create (commercial, company or team):**
+Required whenever a studio or company is the one using the Tools as part of its own work — for example when its employees operate them or when the company bills the client directly. This applies even if only one person operates the Tools. Includes access to all GSOPs courses. Covers use across up to three (3) people (seats) within that structure.
 
 ---
 
-## 4. Disclaimer of Warranty
+## 3. What is never allowed, on any tier
 
-This software is provided "as is", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. In no event shall the author be liable for any claim, damages, or other liability arising from the use of this software.
+- Redistributing, sharing, or reselling the Tools themselves, in whole or in part.
+- Sharing your account or download access with anyone outside your licensed seats.
+- Repackaging the Tools, or any modified version of them, as a product of your own.
+- Reverse engineering or decompiling the Tools.
 
 ---
 
-## 5. Reservation of Rights
+## 4. What you keep if you leave
 
-All rights not expressly granted herein are reserved by Lake Heckaman. The author reserves the right to update license terms in future releases.
+Tools you downloaded while your subscription was active remain usable under the terms of the tier you held, including in projects already delivered. Once your subscription ends, you no longer receive updates, new downloads, or support, and you may not start new commercial work with the Tools unless you are on an active commercial tier (Integrate or Create).
+
+---
+
+## 5. Output
+
+Anything you create with the Tools — your visuals, your shows, your client deliverables — is yours. This license concerns the Tools, not the work you make with them.
 
 ---
 
 ## Third-Party Components
 
-GSOPs includes TDFam, licensed under the Apache License 2.0. Built with TDFam, an open-source TouchDesigner operator-family framework created by Lyell Hintz / dotsimulate and Dan Molnar / function.str.
+GSOPs is deployed via [TDFam](https://github.com/dotsimulate/TDFam), an open-source TouchDesigner operator-family framework created by Lyell Hintz / dotsimulate and Dan Molnar / function.str. Licensed under the Apache License 2.0.
