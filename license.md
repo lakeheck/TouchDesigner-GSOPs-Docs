@@ -21,7 +21,10 @@ You may use the Tools for personal, non-commercial projects, learning, and exper
 You may use the Tools in your own freelance and client work, as an independent individual billing in your own name. This includes work you do for a studio or company as a contracted freelancer, as long as you are the one holding this license and billing in your own name. This license is for one (1) individual user.
 
 **Create (commercial, company or team):**
-Required whenever a studio or company is the one using the Tools as part of its own work — for example when its employees operate them or when the company bills the client directly. This applies even if only one person operates the Tools. Includes access to all GSOPs courses. Covers use across up to three (3) people (seats) within that structure.
+Required whenever a studio or company is the one using the Tools as part of its own work — for example when its employees operate them or when the company bills the client directly. This applies even if only one person operates the Tools. Includes access to all GSOPs operators, fully featured, as well as educational courses. Covers use across up to one (1) individual user within that structure. 
+
+Regardless of tier, you must attribute usage to "Lake Heckaman @lake_heckaman"
+
 
 ---
 
