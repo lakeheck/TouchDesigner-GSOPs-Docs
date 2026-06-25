@@ -1,5 +1,7 @@
 [Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Thin Splat Optimization
 
 Easily reduce the splat count to improve render optimization.

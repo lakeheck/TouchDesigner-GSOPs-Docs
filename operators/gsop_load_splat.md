@@ -1,5 +1,7 @@
 [Back to Operators](../README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Load Splat
 
 `gsop_load_splat` · IO · Generator

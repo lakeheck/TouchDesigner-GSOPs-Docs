@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Motion Blur
 
 Add 3D motion blur to splats.

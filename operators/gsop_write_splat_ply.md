@@ -1,5 +1,7 @@
 [Back to Operators](../README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Write Splat PLY
 
 `gsop_write_splat_ply` · IO · Generator

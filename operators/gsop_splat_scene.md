@@ -1,5 +1,7 @@
 [Back to Operators](../README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Splat Scene
 
 `gsop_splat_scene` · IO · Generator

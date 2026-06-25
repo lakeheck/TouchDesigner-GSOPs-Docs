@@ -1,3 +1,7 @@
+<div align="center">
+<video src="assets/GSOPs_stacked.mp4" autoplay loop muted playsinline width="300"></video>
+</div>
+
 # GSOPs: Gaussian Splat Operators for TouchDesigner
 
 Developed by [Lake Heckaman](https://www.lakeheckaman.com)

@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Alpha Texture Lookup
 
 Use a texture to drive the detail bias and alpha mix parameters.

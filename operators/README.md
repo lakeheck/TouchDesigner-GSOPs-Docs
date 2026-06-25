@@ -1,5 +1,7 @@
 [Back to Docs](../README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Operator Reference
 
 | Category | Operators |

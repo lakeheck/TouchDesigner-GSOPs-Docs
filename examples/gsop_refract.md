@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Refraction
 
 Add refractive geometry to your scene (compatible with environment maps too).

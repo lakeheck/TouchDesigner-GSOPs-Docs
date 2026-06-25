@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Particles Scene Blending Any to Any
 
 Load multiple splats and blend from any to any in real time.

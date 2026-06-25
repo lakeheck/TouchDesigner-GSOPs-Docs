@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Bokeh Texture Lookup
 
 Use the bokeh effect driven by a TOP.

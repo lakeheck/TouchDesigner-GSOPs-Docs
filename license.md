@@ -1,5 +1,7 @@
 [Back to Docs](README.md)
 
+<img src="assets/GSOPs_horizontal.png" width="240" />
+
 # License
 
 These terms cover all operators, components, and project files (the "Tools") distributed through this Patreon by Lake Heckaman. By downloading or using the Tools, you agree to them.

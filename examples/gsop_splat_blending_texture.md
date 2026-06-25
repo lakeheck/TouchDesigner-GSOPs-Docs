@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Particles Scene Blending via Texture Input
 
 Load multiple splats and blend between them in real time using a texture-based input.

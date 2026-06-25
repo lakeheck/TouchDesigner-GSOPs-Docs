@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Minimal Splat Particles Scene
 
 The simplest GSOP particle system setup — load a splat, turn it into a particle system and render it.

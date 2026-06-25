@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Minimal Static Scene
 
 The simplest possible GSOPs setup — load a splat and render it.

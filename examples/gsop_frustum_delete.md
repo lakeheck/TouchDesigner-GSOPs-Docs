@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Frustum Delete
 
 Remove splats that are outside of the camera's view, so they do not hit the render pipeline.

@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Bokeh Depth Slicing
 
 Use the bokeh effect to 'slice' through splats.

@@ -1,5 +1,7 @@
 [Back to Docs](../README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Examples
 
 open `examples.toe` from the release .zip to view live examples in TouchDesigner

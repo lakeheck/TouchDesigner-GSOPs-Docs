@@ -1,5 +1,7 @@
 ﻿[Back to Examples](README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Add Your Own Effects to Any Scene
 
 Easily add custom animation, dynamics or logic to GSOPs scenes using any other POPs.

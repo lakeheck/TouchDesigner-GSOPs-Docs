@@ -1,5 +1,7 @@
 [Back to Operators](../README.md)
 
+<img src="../assets/GSOPs_horizontal.png" width="240" />
+
 # Frustum Delete
 
 `gsop_frustum_delete` · Optimization · Filter
