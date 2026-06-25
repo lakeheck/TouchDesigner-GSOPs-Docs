@@ -128,11 +128,13 @@ Copyright (c) 2025-2026 Lake Heckaman. All rights reserved.
 
 GSOPs is available via Patreon subscription at **[patreon.com/collection/1565627](https://www.patreon.com/collection/1565627)**:
 
-| Tier | Who it's for |
-|------|-------------|
-| **Free** | GSOPs LITE for testing and non-commercial uses. Grab for free from patreon. Includes Splat Scene, Splat Render Geo (with limited features) and the Splat Camera viewport, everything you need to quickly load and render splats in TouchDesigner. Great to get a feel for GSOPs and see if they are a worthwhile addition to your workflow. Non-commercial license, provided as-is.
-| **Integrate** | Individual artists and freelancers — personal and commercial use |
-| **Studio** | Studios and teams — commercial use across an organization |
+**Beta:** Currently available to all active **Integrate** tier subscribers. Tier structure is expanding soon:
+
+| Tier | What's included |
+|------|----------------|
+| **Free** | GSOPs Lite — core operators for loading and rendering splats, non-commercial use |
+| **Integrate** | Full GSOPs, non-commercial use |
+| **Create** | Full GSOPs, commercial use + all courses |
 
 No redistribution, reverse engineering, or sublicensing permitted. **[Full License →](license.md)**
 
