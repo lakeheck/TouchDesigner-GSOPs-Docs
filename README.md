@@ -15,10 +15,10 @@ See below for usage, licensing and examples.
 <video src="examples/videos/gsops_quick_start.mp4" controls autoplay loop muted width="100%"></video>
 
 0. Download the latest GSOPs release from **[Patreon here](https://www.patreon.com/collection/2236690)**, unzip it and drop the .tox `gsop_release_vX.X.X` into your network
-1. Drop a **GSOP Splat Scene** or **GSOP Splat Scene Particles** into your network
+1. Drop a **[GSOP Splat Scene](operators/gsop_splat_scene.md)** or **[GSOP Splat Scene Particles](operators/gsop_splat_scene_particles.md)** into your network
 2. Set the splat file path parameter to your `.ply` or `.spz` file
 3. Click **Init Splat Render Network** — auto-creates a Splat Geo, GSOP Splat Camera, and Render TOP
-4. Done — you have a working render pipeline
+4. Done — you have a working Gaussian Splat render pipeline in TouchDesigner!
 
 ---
 
@@ -31,14 +31,18 @@ Download the latest release from **[Patreon here](https://www.patreon.com/collec
 - `gsop_release_v{version}.tox` — drag-and-drop installer, all operators included
 - `examples.toe` — interactive examples browser (bring your own splats)
 
-GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community framework for packaging custom operator families into TouchDesigner's TAB/OP Create menu (developed by Lyell Hintz / dotsimulate and Dan Molnar / Function Store).
-
 1. Open your TouchDesigner project
 2. Drag `gsop_release_v{version}.tox` into your network
 3. GSOPs will appear as a new family in the TAB/OP Create dialog
 4. I recommend you save this as a custom startup file by saving the .toe, then going to Edit > Preferences > Custom Startup File and pointing it to the .toe with GSOPs
 
-To explore examples, open `examples.toe` from the release zip. It launches with a selection window — click any example to hot-load it instantly. Use the **Open Network** button to inspect the operator network for each example (similar to TD op snippets).
+To explore examples, open `examples.toe` from the release zip. It launches with a selection window — click any example to hot-load it instantly. Use the **Open Network** button to inspect the operator network for each example (similar to TD op snippets). Each example also has a wiki page and video: 
+
+### GSOP Examples
+
+Pre-built example networks for common GSOPs workflows — with screenshots and videos.
+
+**[Browse Examples →](examples/README.md)**
 
 ### Usage Notes
 
@@ -58,13 +62,7 @@ These `Splatscene` generators serve as the root for a render pipeline — normal
 
 Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) must reference a `Splatscene` or they will throw errors. These operators all have a pulse parameter to auto-find a splat scene in the network (at the same level), but you can manually assign too via drag and drop.
 
-**If you have any errors in rendering, first check that the `Splatscene` param references are all valid and correct**
-
-## Examples
-
-Pre-built example networks for common GSOPs workflows — with screenshots and videos.
-
-**[Browse Examples →](examples/README.md)**
+**If you have any errors in rendering, first check that the `Splatscene` param references are all valid and correct. Then make sure your splat is transformed so its actually in the viewport**
 
 ---
 
@@ -132,8 +130,7 @@ GSOPs is available via Patreon subscription **[here](https://www.patreon.com/col
 
 | Tier | What's included |
 |------|----------------|
-| **Free** | GSOPs Lite — core operators for loading and rendering splats, non-commercial use |
-| **Integrate** | Full GSOPs, non-commercial use |
+| **Free** | GSOPs Lite — core operators for loa!ding and rendering splats, non-commercial use |
 | **Create** | Full GSOPs, commercial use + all courses |
 
 No redistribution, reverse engineering, or sublicensing permitted. **[Full License →](license.md)**

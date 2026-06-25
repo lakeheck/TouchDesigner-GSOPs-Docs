@@ -2,6 +2,8 @@
 
 # Examples
 
+open `examples.toe` from the release .zip to view live examples in TouchDesigner
+
 | Example | Description |
 |---------|-------------|
 | [Minimal Static Scene](gsop_static_scene_minimal.md) | The simplest possible GSOPs setup — load a splat and render it |
