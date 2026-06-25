@@ -4,11 +4,11 @@
 
 Use the bokeh effect driven by a TOP.
 
-![Bokeh Texture Lookup](images/gsop_bokeh_texture.png)
-
 <video src="videos/gsop_bokeh_texture.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_bokeh_texture.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Bokeh Texture Lookup](images/gsop_bokeh_texture.png)
 
 ## Operators
 

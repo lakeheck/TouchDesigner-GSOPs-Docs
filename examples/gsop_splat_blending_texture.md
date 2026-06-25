@@ -4,11 +4,11 @@
 
 Load multiple splats and blend between them in real time using a texture-based input.
 
-![Particles Scene Blending via Texture Input](images/gsop_splat_blending_texture.png)
-
 <video src="videos/gsop_splat_blending_texture.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_splat_blending_texture.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Particles Scene Blending via Texture Input](images/gsop_splat_blending_texture.png)
 
 ## Operators
 

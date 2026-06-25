@@ -7,13 +7,13 @@ Use a texture to drive the detail bias and alpha mix parameters.
 - **R** = Detail Bias
 - **G** = Alpha Mix (`1 = render splat with color = vec4(alpha)`)
 
-![Alpha Texture Lookup](images/gsop_alpha_texture.png)
-
-![Alpha Accumulation](images/gsop_alpha_accumulation.png)
-
 <video src="videos/gsop_alpha_texture.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_alpha_texture.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Alpha Texture Lookup](images/gsop_alpha_texture.png)
+
+![Alpha Accumulation](images/gsop_alpha_accumulation.png)
 
 ## Operators
 

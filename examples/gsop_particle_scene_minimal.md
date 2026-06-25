@@ -4,11 +4,11 @@
 
 The simplest GSOP particle system setup — load a splat, turn it into a particle system and render it.
 
-![Minimal Splat Particles Scene](images/gsop_particle_scene_minimal.png)
-
 <video src="videos/gsop_particle_scene_minimal.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_particle_scene_minimal.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Minimal Splat Particles Scene](images/gsop_particle_scene_minimal.png)
 
 ## Operators
 

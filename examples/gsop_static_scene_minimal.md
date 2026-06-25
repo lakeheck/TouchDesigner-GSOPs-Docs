@@ -4,11 +4,11 @@
 
 The simplest possible GSOPs setup — load a splat and render it.
 
-![Minimal Static Scene](images/gsop_static_scene_minimal.png)
-
 <video src="videos/gsop_static_scene_minimal.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_static_scene_minimal.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Minimal Static Scene](images/gsop_static_scene_minimal.png)
 
 ## Operators
 

@@ -4,11 +4,11 @@
 
 Remove splats that are outside of the camera's view, so they do not hit the render pipeline.
 
-![Frustum Delete](images/gsop_frustum_delete.png)
-
 <video src="videos/gsop_frustum_delete.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_frustum_delete.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Frustum Delete](images/gsop_frustum_delete.png)
 
 ## Operators
 

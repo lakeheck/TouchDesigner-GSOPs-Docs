@@ -4,13 +4,13 @@
 
 Easily add custom animation, dynamics or logic to GSOPs scenes using any other POPs.
 
-![Custom Effects — Quantize](images/gsop_static_splat_feedback_quantize.png)
-
-![Custom Effects — Twist](images/gsop_static_splat_feedback_twist.png)
-
 <video src="videos/gsop_static_splat_feedback.mp4" controls width="100%"></video>
 
 <a href="videos/gsop_static_splat_feedback.mp4" target="_blank">↗ Open video in new tab</a>
+
+![Custom Effects — Quantize](images/gsop_static_splat_feedback_quantize.png)
+
+![Custom Effects — Twist](images/gsop_static_splat_feedback_twist.png)
 
 ## Operators
 

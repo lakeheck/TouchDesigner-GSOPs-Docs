@@ -4,6 +4,12 @@ Developed by [Lake Heckaman](https://www.lakeheckaman.com)
 
 Custom operators for loading, editing, rendering, and animating 3D Gaussian Splats in TouchDesigner.
 
+GSOPs are designed (as much as possible) in an unopinionated fashion to allow you to integrate them into your existing workflows without changing your process. The goal is to provide tools without enforcing adherence to any specific workflow, so your own creativity can shine. 
+
+You can use GSOPs with any other POPs, meaning its easy to add your own feedback loops and effects as well.  
+
+See below for usage, licensing and examples.
+
 ## Quick Start
 
 <video src="examples/videos/gsops_quick_start.mp4" controls autoplay loop muted width="100%"></video>
@@ -23,7 +29,7 @@ Custom operators for loading, editing, rendering, and animating 3D Gaussian Spla
 Download the latest release from **[patreon.com/collection/1565627](https://www.patreon.com/collection/1565627)**. The zip contains:
 
 - `gsop_release_v{version}.tox` — drag-and-drop installer, all operators included
-- `gsop_examples.toe` — example networks (bring your own splats)
+- `examples.toe` — interactive examples browser (bring your own splats)
 
 GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community framework for packaging custom operator families into TouchDesigner's TAB/OP Create menu (developed by Lyell Hintz / dotsimulate and Dan Molnar / Function Store).
 
@@ -32,13 +38,14 @@ GSOPs uses [TDFam](https://github.com/dotsimulate/TDFam) v1.0.1, a community fra
 3. GSOPs will appear as a new family in the TAB/OP Create dialog
 4. I recommend you save this as a custom startup file by saving the .toe, then going to Edit > Preferences > Custom Startup File and pointing it to the .toe with GSOPs
 
-To explore examples, open `gsop_examples.toe` separately.
+To explore examples, open `examples.toe` from the release zip. It launches with a selection window — click any example to hot-load it instantly. Use the **Open Network** button to inspect the operator network for each example (similar to TD op snippets).
 
 ### Usage Notes
 
-1. Tested on Windows 11, Intel i9 14900, RTX 4090 24GB VRAM. Splats consume VRAM — save often.
-2. Should work on macOS — please report issues (some feature limitations may apply).
-3. Intended for use with a Commercial license for full features, but most operators work on Non-Commercial too.
+1. Built on Windows 11, Intel i9 14900, RTX 4090 24GB VRAM, TD 2025.32820
+    - Splats consume VRAM — save often
+    - Also tested on macOS (M3 chip). Working well but please report issues as you come across them. 
+3. Intended for use with a Commercial TouchDesigner license for full features, but most operators work on Non-Commercial too.
 4. When adding GSOPs, you might notice frame drops. These should be transitory and are due to VRAM re-allocation when dropping new operators.
 5. Be careful as you develop. Gaussian splats and therefore GSOPs eat up VRAM, which can cause TD to crash. 
     - Monitor your VRAM usage with `nvidia-smi` in the terminal or using the "GPU" icon next to FPS in the TouchDesigner menu
@@ -71,6 +78,8 @@ Pre-built example networks for common GSOPs workflows — with screenshots and v
 | **Animation** | Particle systems, splat blending, dynamics |
 | **Render** | Geometry generation, materials, post-effects |
 | **UI** | Control panels and HUDs |
+
+**[Browse Operators →](operators/README.md)**
 
 ## Operators
 
@@ -121,6 +130,7 @@ GSOPs is available via Patreon subscription at **[patreon.com/collection/1565627
 
 | Tier | Who it's for |
 |------|-------------|
+| **Free** | GSOPs LITE for testing and non-commercial uses. Grab for free from patreon. Includes Splat Scene, Splat Render Geo (with limited features) and the Splat Camera viewport, everything you need to quickly load and render splats in TouchDesigner. Great to get a feel for GSOPs and see if they are a worthwhile addition to your workflow. Non-commercial license, provided as-is.
 | **Integrate** | Individual artists and freelancers — personal and commercial use |
 | **Studio** | Studios and teams — commercial use across an organization |
 
