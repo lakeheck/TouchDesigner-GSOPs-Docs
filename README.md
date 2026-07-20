@@ -12,7 +12,7 @@ GSOPs are designed (as much as possible) in an unopinionated fashion to allow yo
 
 You can use GSOPs with any other POPs, meaning its easy to add your own feedback loops and effects as well.  
 
-See below for usage, licensing and examples.
+See below for usage, licensing and examples. There is a free version with basic funcationality and non-commercial license as well as the fully featured toolkit with commercial license, both available for download from **[Patreon here](https://www.patreon.com/collection/2236690)**
 
 ## Quick Start
 
@@ -47,6 +47,12 @@ To explore examples, open `examples.toe` from the release zip. It launches with 
 Pre-built example networks for common GSOPs workflows — with screenshots and videos.
 
 **[Browse Examples →](examples/README.md)**
+
+### GSOPs Lite
+
+If you only need basic Gaussian Splat rendering for non-commercial use only, or prefer not to subscribe for the full toolkit, you can download GSOPs Lite for free. 
+
+This will include the bare bones needed to load several splats and render them quickly and easily, just like in the quick start video above
 
 ### Usage Notes
 
