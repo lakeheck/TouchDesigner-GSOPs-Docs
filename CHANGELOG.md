@@ -12,6 +12,10 @@ are not itemized.
 
 ## [Unreleased]
 
+## [0.1.69] — 2026-07-20
+
+Bug fixes and quality-of-life improvements (consolidates the 0.1.62–0.1.69 dev builds).
+
 ### Changed
 - **Minimum TouchDesigner version is now 2025.33060** (up from 2025.32820). Built
   and tested on the current official 2025 release.
