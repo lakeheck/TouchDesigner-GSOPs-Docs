@@ -130,6 +130,14 @@ Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) must re
 
 ---
 
+## FAQ
+
+Common questions and troubleshooting — splats not rendering, harmless load errors, supported formats, free version, and more.
+
+**[Read the FAQ →](faq.md)**
+
+---
+
 ## License
 
 Copyright (c) 2025-2026 Lake Heckaman. All rights reserved.
