@@ -28,7 +28,7 @@ See below for usage, licensing and examples. There is a free version with basic 
 
 ## Installation
 
-**Prerequisite:** TouchDesigner 2025.32820 or later (see Usage Notes below)
+**Prerequisite:** TouchDesigner 2025.33060 or later (see Usage Notes below)
 
 Download the latest release from **[Patreon here](https://www.patreon.com/collection/2236690)**. The zip contains:
 
@@ -56,7 +56,7 @@ This will include the bare bones needed to load several splats and render them q
 
 ### Usage Notes
 
-1. Built on Windows 11, Intel i9 14900, RTX 4090 24GB VRAM, TD 2025.32820
+1. Built on Windows 11, Intel i9 14900, RTX 4090 24GB VRAM, TD 2025.33060
     - Splats consume VRAM — save often
     - Also tested on macOS (M3 chip). Working well but please report issues as you come across them. 
 3. Intended for use with a Commercial TouchDesigner license for full features, but most operators work on Non-Commercial too.
@@ -135,6 +135,14 @@ Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) must re
 Common questions and troubleshooting — splats not rendering, harmless load errors, supported formats, free version, and more.
 
 **[Read the FAQ →](faq.md)**
+
+---
+
+## Changelog
+
+Release-by-release notes, versioned to the `gsop_release_vX.Y.Z` builds.
+
+**[View the Changelog →](CHANGELOG.md)**
 
 ---
 
