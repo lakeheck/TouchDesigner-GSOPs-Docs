@@ -76,6 +76,14 @@ Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) must re
 
 ---
 
+## FAQ
+
+New to GSOPs or hit a snag? Start here — splats not rendering, harmless load errors, supported formats, the free version, and more.
+
+**[Read the FAQ →](faq.md)**
+
+---
+
 ## Operator Categories
 
 | Category | Description |
@@ -127,14 +135,6 @@ Scene-dependent operators (like `gsop_frustum_delete`, `gsop_splat_geo`) must re
 | Operator | Type | Description |
 |----------|------|-------------|
 | [Control Panel](operators/gsop_control_panel.md) | Filter | HUD for working with GSOPs |
-
----
-
-## FAQ
-
-Common questions and troubleshooting — splats not rendering, harmless load errors, supported formats, free version, and more.
-
-**[Read the FAQ →](faq.md)**
 
 ---
 

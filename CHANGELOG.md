@@ -12,9 +12,9 @@ are not itemized.
 
 ## [Unreleased]
 
-## [0.1.69] — 2026-07-20
+## [0.1.70] — 2026-07-20
 
-Bug fixes and quality-of-life improvements (consolidates the 0.1.62–0.1.69 dev builds).
+Bug fixes and quality-of-life improvements.
 
 ### Changed
 - **Minimum TouchDesigner version is now 2025.33060** (up from 2025.32820). Built
@@ -30,10 +30,6 @@ tracking starts here._
   sample splat automatically, so you see content immediately instead of an empty op.
 - **Automatic SPZ handling** — Splat Scene generators auto-detect `.spz` files.
 - **FAQ page** in the docs.
-
-### Changed
-- **Release versioning** is now sourced from `gsop_config.json` (`family.version`)
-  and can no longer regress or overwrite an existing release. (Internal/dev.)
 
 ### Fixed
 - Release builds no longer surface harmless-but-confusing file-sync errors to users.
