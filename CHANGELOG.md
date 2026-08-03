@@ -12,6 +12,17 @@ are not itemized.
 
 ## [Unreleased]
 
+### Added
+- **Cubemap splat rendering (in development)** — new
+  `dat/GS_MATERIAL/glsl_vert_frag_cubemap_render.glsl`: renders splats as six 90°
+  perspective faces (TD Render TOP cube-map mode), reprojectable to equirectangular
+  via a Projection TOP. Uses **ray-space evaluation** (`RAY_EVAL 1`): fragment alpha
+  is the exact peak density of the 3D Gaussian along each pixel's ray, so adjacent
+  faces agree by construction — no face-boundary seams, no polar artifacts, and
+  thin structures (wires) stay continuous. Includes ray-space antialiasing
+  (0.3 px² world-equivalent dilation) and conservative quad sizing for close splats.
+  Shares the radial far-to-near sort with the equirect path.
+
 ### Fixed
 - **Equirectangular render (WIP operator)** — fixed a transposed Jacobian in the
   equirect covariance projection. The bug compressed splat footprints into thin
