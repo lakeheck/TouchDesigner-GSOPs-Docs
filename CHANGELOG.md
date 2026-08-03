@@ -12,6 +12,22 @@ are not itemized.
 
 ## [Unreleased]
 
+### Fixed
+- **Equirectangular render (WIP operator)** — fixed a transposed Jacobian in the
+  equirect covariance projection. The bug compressed splat footprints into thin
+  vertical slivers away from the view center, causing comb striping at the poles,
+  vertical "curtain" smearing of close-range splats, and general degradation
+  outside the forward direction. With the correct layout the polar alpha-fade
+  workaround became unnecessary and was removed — near-pole splats now stretch
+  into their true wide equirect footprints and cover the zenith/nadir naturally.
+- **Equirectangular render sorting** — the splat sort used the sort POP's
+  "object" mode, which orders along the camera's view axis, inverting the
+  composite order for everything behind the camera (rear hemisphere rendered as
+  a milky wash). Switched to proximity sort on the camera's world position
+  (expression-driven from the splat scene's Camera matrix CHOP), reversed for
+  back-to-front painter's order. The full 360° now renders uniformly sharp
+  regardless of camera orientation.
+
 ## [0.1.70] — 2026-07-20
 
 Bug fixes and quality-of-life improvements.
