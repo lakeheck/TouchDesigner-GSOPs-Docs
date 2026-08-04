@@ -13,18 +13,20 @@ are not itemized.
 ## [Unreleased]
 
 ### Added
-- **Cubemap splat rendering (in development)** — new
-  `dat/GS_MATERIAL/glsl_vert_frag_cubemap_render.glsl`: renders splats as six 90°
-  perspective faces (TD Render TOP cube-map mode), reprojectable to equirectangular
-  via a Projection TOP. Uses **ray-space evaluation** (`RAY_EVAL 1`): fragment alpha
-  is the exact peak density of the 3D Gaussian along each pixel's ray, so adjacent
-  faces agree by construction — no face-boundary seams, no polar artifacts, and
-  thin structures (wires) stay continuous. Includes ray-space antialiasing
-  (0.3 px² world-equivalent dilation) and conservative quad sizing for close splats.
-  Shares the radial far-to-near sort with the equirect path.
+- **Splat Geo Equirectangular** (`gsop_splat_geo_equirectangular`) — renders the
+  splat scene as a single-pass 360°×180° equirectangular panorama: the fast 360
+  mode for immersive rooms, domes, sphere/skybox mapping, and 360 video.
+  [Docs](operators/gsop_splat_geo_equirectangular.md).
+- **Splat Geo Cubemap** (`gsop_splat_geo_cubemap`) — renders the splat scene as a
+  cube map (six 90° faces in one Render TOP): the highest-quality 360 mode. Exact
+  per-ray opacity evaluation (`RAY_EVAL 1`) means no seams between faces, no polar
+  artifacts, and thin structures stay continuous; feeds Environment Lights directly
+  or converts to equirectangular via a Projection TOP. ~1.3× the cost of classic
+  evaluation, with a classic (EWA) fallback mode.
+  [Docs](operators/gsop_splat_geo_cubemap.md).
 
 ### Fixed
-- **Equirectangular render (WIP operator)** — fixed a transposed Jacobian in the
+- **Equirectangular render** — fixed a transposed Jacobian in the
   equirect covariance projection. The bug compressed splat footprints into thin
   vertical slivers away from the view center, causing comb striping at the poles,
   vertical "curtain" smearing of close-range splats, and general degradation

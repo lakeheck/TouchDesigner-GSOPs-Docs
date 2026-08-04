@@ -129,6 +129,8 @@ New to GSOPs or hit a snag? Start here — splats not rendering, harmless load e
 |----------|------|-------------|
 | [Splat Geo](operators/gsop_splat_geo.md) | Filter | Generates renderable geometry with sorting and material |
 | [Refractive](operators/gsop_refractive.md) | Filter | Refractive post-effect from POP geometry |
+| [Splat Geo Equirectangular](operators/gsop_splat_geo_equirectangular.md) | Filter | Single-pass 360° equirectangular render |
+| [Splat Geo Cubemap](operators/gsop_splat_geo_cubemap.md) | Filter | Seam-free cube map render, highest-quality 360° mode |
 
 ### UI
 

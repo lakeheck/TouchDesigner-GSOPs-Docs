@@ -9,7 +9,7 @@
 | **IO** | [Splat Scene](#splat-scene), [Splat Scene Particles](#splat-scene-particles), [Load Splat](#load-splat), [Write Splat PLY](#write-splat-ply) |
 | **Edit** | [Bounding Box](#bounding-box), [Convert to Particle System](#convert-to-particle-system) |
 | **Optimization** | [Frustum Delete](#frustum-delete), [Thin Splat](#thin-splat), [Blowout](#blowout) |
-| **Render** | [Splat Geo](#splat-geo), [Refractive](#refractive) |
+| **Render** | [Splat Geo](#splat-geo), [Refractive](#refractive), [Splat Geo Equirectangular](#render), [Splat Geo Cubemap](#render) |
 | **UI** | [Control Panel](#control-panel), [Camera Viewport](#camera-viewport) |
 
 ---
@@ -44,6 +44,8 @@
 |----------|-------------|
 | [Splat Geo](gsop_splat_geo.md) | Generates renderable geometry with sorting and material |
 | [Refractive](gsop_refractive.md) | Refractive post-effect from POP geometry |
+| [Splat Geo Equirectangular](gsop_splat_geo_equirectangular.md) | Single-pass 360° equirectangular render — the fast panorama mode |
+| [Splat Geo Cubemap](gsop_splat_geo_cubemap.md) | Seam-free cube map render — the highest-quality 360° mode |
 
 ### UI
 
