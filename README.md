@@ -123,6 +123,12 @@ New to GSOPs or hit a snag? Start here — splats not rendering, harmless load e
 | [Thin Splat](operators/gsop_thin_splat.md) | Filter | Reduces point count by percentage |
 | [Blowout](operators/gsop_blowout.md) | Filter | Adds space between splats |
 
+### Animation
+
+| Operator | Type | Description |
+|----------|------|-------------|
+| [Attribute Blur](operators/gsop_attr_blur.md) | Filter | Blurs attribute values across neighboring points |
+
 ### Render
 
 | Operator | Type | Description |

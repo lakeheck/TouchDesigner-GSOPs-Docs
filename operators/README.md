@@ -9,6 +9,7 @@
 | **IO** | [Splat Scene](#splat-scene), [Splat Scene Particles](#splat-scene-particles), [Load Splat](#load-splat), [Write Splat PLY](#write-splat-ply) |
 | **Edit** | [Bounding Box](#bounding-box), [Convert to Particle System](#convert-to-particle-system) |
 | **Optimization** | [Frustum Delete](#frustum-delete), [Thin Splat](#thin-splat), [Blowout](#blowout) |
+| **Animation** | [Attribute Blur](#animation) |
 | **Render** | [Splat Geo](#splat-geo), [Refractive](#refractive), [Splat Geo Equirectangular](#render), [Splat Geo Cubemap](#render) |
 | **UI** | [Control Panel](#control-panel), [Camera Viewport](#camera-viewport) |
 
@@ -37,6 +38,12 @@
 | [Frustum Delete](gsop_frustum_delete.md) | Culls splats outside the camera frustum |
 | [Thin Splat](gsop_thin_splat.md) | Reduces point count by percentage |
 | [Blowout](gsop_blowout.md) | Adds space between splats |
+
+### Animation
+
+| Operator | Description |
+|----------|-------------|
+| [Attribute Blur](gsop_attr_blur.md) | Blurs attribute values across neighboring points |
 
 ### Render
 

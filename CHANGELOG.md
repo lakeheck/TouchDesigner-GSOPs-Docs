@@ -24,6 +24,9 @@ are not itemized.
   or converts to equirectangular via a Projection TOP. ~1.3× the cost of classic
   evaluation, with a classic (EWA) fallback mode.
   [Docs](operators/gsop_splat_geo_cubemap.md).
+- **Attribute Blur docs** (`gsop_attr_blur`) — documentation page for the
+  Animation-group attribute blur operator, plus a new Animation section in the
+  operator reference. [Docs](operators/gsop_attr_blur.md).
 
 ### Fixed
 - **Equirectangular render** — fixed a transposed Jacobian in the
