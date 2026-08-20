@@ -21,3 +21,4 @@ Blurs a point attribute across neighboring splats. Each point gathers nearby nei
 | Blend to Input (`Blendtoinput`) | Blends the blurred result back toward the original attribute values, recovering the pre-blur input. |
 | Bypass (`Bypass`) | Turns the component on and off. |
 | Start (`Start`) | Pulse to reset the blur to its initial state. |
+| Feedback Active | When On, will blur attribute progressively using a feedback loop

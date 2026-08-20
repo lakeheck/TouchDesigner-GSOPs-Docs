@@ -105,7 +105,7 @@ New to GSOPs or hit a snag? Start here — splats not rendering, harmless load e
 |----------|------|-------------|
 | [Splat Scene](operators/gsop_splat_scene.md) | Generator | Loads a single splat file with camera and render pipeline |
 | [Splat Particles Scene](operators/gsop_splat_scene_particles.md) | Generator | Loads multiple splats with particle system and blending |
-| [Load Splat](operators/gsop_load_splat.md) | Generator | Loads a .ply or .spz file for the render pipeline |
+| [Load Splat](operators/gsop_load_splat.md) | Generator (internal) | Loads a .ply or .spz file for the render pipeline — embedded in the scene generators, not in the OP Create menu |
 | [Write Splat PLY](operators/gsop_write_splat_ply.md) | Generator | Writes splat to .ply file |
 
 ### Edit
@@ -113,7 +113,7 @@ New to GSOPs or hit a snag? Start here — splats not rendering, harmless load e
 | Operator | Type | Description |
 |----------|------|-------------|
 | [Bounding Box](operators/gsop_bounding_box.md) | Filter | Constrains splats to a bounding region |
-| [Convert to ParticleSystem](operators/gsop_particle_system.md) | Filter | Converts splats into a particle system |
+| [Convert to ParticleSystem](operators/gsop_particle_system.md) | Filter (internal) | Converts splats into a particle system — embedded in Splat Particles Scene, not in the OP Create menu |
 
 ### Optimization
 
@@ -142,7 +142,7 @@ New to GSOPs or hit a snag? Start here — splats not rendering, harmless load e
 
 | Operator | Type | Description |
 |----------|------|-------------|
-| [Control Panel](operators/gsop_control_panel.md) | Filter | HUD for working with GSOPs |
+| [Control Panel](operators/gsop_control_panel.md) | Filter (internal) | HUD for working with GSOPs — embedded in the scene generators, not in the OP Create menu |
 
 ---
 

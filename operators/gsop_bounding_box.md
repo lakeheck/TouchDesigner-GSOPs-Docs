@@ -17,3 +17,6 @@ A general-use bounding box for constraining splats to a region. This does not co
 | Scale (`Scalex`, `Scaley`, `Scalez`) | The scale of the bounding box. |
 | Rotate (`Rotatex`, `Rotatey`, `Rotatez`) | The rotation of the bounding box. |
 | Translate (`Translatex`, `Translatey`, `Translatez`) | The translation of the bounding box. |
+| Margin | Padding applied to bounding volume scale
+| Invert | On = Keep Inside ; Off = Keep Outside 
+| Copy Topology Back to CPU | Update geometry memory allocation. Can cause large CPU cook times. 

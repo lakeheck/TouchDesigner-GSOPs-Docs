@@ -4,9 +4,11 @@
 
 # Load Splat
 
-`gsop_load_splat` · IO · Generator
+`gsop_load_splat` · IO · Generator · Internal
 
-`gsop_load_splat` is used inside both scene generators (`gsop_splat_scene` and `gsop_splat_scene_particles`), and can also be used standalone. Its main purpose is to provide an interface for using the camera to bake in a pre-transform for the splat through a convenient UI.
+> **Note:** Load Splat is embedded inside `gsop_splat_scene` and `gsop_splat_scene_particles` and is not listed in the OP Create menu. Use it through those operators (dive into the scene component to reach it).
+
+`gsop_load_splat` is used inside both scene generators (`gsop_splat_scene` and `gsop_splat_scene_particles`). Its main purpose is to provide an interface for using the camera to bake in a pre-transform for the splat through a convenient UI.
 
 ## Parameters
 

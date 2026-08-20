@@ -26,7 +26,7 @@ For maximum quality (seam-free, best zenith/nadir), see
 
 ## Notes
 
-** Equirectangular rendering does not yet support relighting - you will notice the parameter is greyed out. Sorry.** 
+**Equirectangular rendering does not yet support relighting, bokeh, or motion blur - you will notice those parameters are greyed out. Sorry.**
 
 - **Wrap seam:** content that crosses the left/right edge of the panorama (directly
   *behind* the camera's facing) can show a visible seam, most noticeable on large,

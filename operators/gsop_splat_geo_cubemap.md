@@ -17,7 +17,7 @@ equirectangular image with a **Projection TOP**.
 
 ## Usage
 
-** Cubemap rendering does not yet support relighting - you will notice the parameter is greyed out. Sorry.** 
+**Cubemap rendering does not yet support relighting, bokeh, or motion blur - you will notice those parameters are greyed out. Sorry.**
 
 - Wire it exactly like [Splat Geo](gsop_splat_geo.md): it needs a `Splatscene`
   reference (auto-found on create, or drag-and-drop).
@@ -41,9 +41,13 @@ equirectangular image with a **Projection TOP**.
 ## Parameters
 
 Parameters match [Splat Geo](gsop_splat_geo.md) — see that page for the full
-reference, including Motion Blur, Bokeh, Relighting, Chroma Key, and Color
-Correction, which all work in this mode. One difference:
+reference. Differences in this mode:
 
 | Difference | Detail |
 |-----------|--------|
-| **Bokeh Vignette Falloff** | No effect in this mode (screen-center falloff has no meaning on a 360° output). |
+| **Motion Blur** | Not supported in this mode (parameter has no effect). |
+| **Bokeh** (all parameters) | Not supported in this mode. |
+| **Use TD Lighting / Relighting** | Not supported in this mode. |
+
+Alpha rendering (Alpha Mix, Detail Bias, Alpha Discard Threshold), Chroma Key,
+Quantize effects, Color Correction, and Depth Output all work as in Splat Geo.

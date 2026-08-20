@@ -12,6 +12,13 @@ are not itemized.
 
 ## [Unreleased]
 
+### Changed
+- **Internal operators hidden from the OP Create menu.** `gsop_load_splat`,
+  `gsop_particle_system`, and `gsop_control_panel` are embedded in the scene
+  generators (`gsop_splat_scene` / `gsop_splat_scene_particles`) and are no
+  longer offered as standalone drops in the TAB menu. They still ship in the
+  family and update normally; reach them by diving into the scene component.
+
 ### Added
 - **Splat Geo Equirectangular** (`gsop_splat_geo_equirectangular`) — renders the
   splat scene as a single-pass 360°×180° equirectangular panorama: the fast 360
@@ -27,6 +34,10 @@ are not itemized.
 - **Attribute Blur docs** (`gsop_attr_blur`) — documentation page for the
   Animation-group attribute blur operator, plus a new Animation section in the
   operator reference. [Docs](operators/gsop_attr_blur.md).
+- **Example pages for the three new operators** — Attribute Blur, Cubemap Render,
+  and Equirectangular Render each get a walkthrough with video and stills, plus
+  matching `.tox` demos in `tox/examples/`. Listed in the
+  [example index](examples/README.md).
 
 ### Fixed
 - **Equirectangular render** — fixed a transposed Jacobian in the
@@ -43,6 +54,23 @@ are not itemized.
   (expression-driven from the splat scene's Camera matrix CHOP), reversed for
   back-to-front painter's order. The full 360° now renders uniformly sharp
   regardless of camera orientation.
+- **New operators were missing from the OP Create menu.** `gsop_splat_geo_cubemap`,
+  `gsop_splat_geo_equirectangular`, and `gsop_attr_blur` had complete entries in
+  `gsop_config.json` but no generated sidecar manifest, so TDFam auto-discovered
+  them into the "Other" group with default labels, no color, and no doc link. The
+  release build now regenerates the sidecars itself (`BuildRelease` →
+  `GenerateManifests`) before baking manifests into the `.tox`, so a newly added
+  operator can no longer ship unregistered.
+- **Operator versions no longer drift from the family version.** Nothing
+  propagated `family.version` into the per-operator `op_version` during a
+  TouchDesigner build, so every operator advertised `0.1.77` while the family had
+  moved on — making TDFam's update comparison unreliable. The build now stamps
+  both from a single writer shared by the TD build and `build_release.py`.
+- **Manifest sync now reads the sidecar `.json` from disk** rather than the
+  `manifest_src` DAT text. The DATs went stale between builds, and one was
+  deliberately locked with its file path cleared to suppress a recurring import
+  error — freezing its manifest permanently. Ops with no sidecar still fall back
+  to the DAT.
 
 ## [0.1.70] — 2026-07-20
 

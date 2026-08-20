@@ -22,5 +22,8 @@ open `examples.toe` from the release .zip to view live examples in TouchDesigner
 | [Alpha Texture Lookup](gsop_alpha_texture.md) | Drive detail bias and alpha mix with a texture |
 | [Relighting](gsop_relight.md) | Use TouchDesigner LightCOMPs with your splat |
 | [Refraction](gsop_refract.md) | Add refractive geometry to your scene |
+| [Equirectangular Render](gsop_equirectangular_render.md) | Render a full 360 panorama in a single pass |
+| [Cubemap Render](gsop_cubemap_render.md) | Render six cube faces for immersive environments and reflections |
 | [Splat Blending — Any to Any](gsop_splat_blending_any_to_any.md) | Blend between any two loaded splats in real time |
 | [Splat Blending — Texture Input](gsop_splat_blending_texture.md) | Blend between splats using a texture-based input |
+| [Attribute Blur](gsop_attribute_blur.md) | Blur an attribute across proximate splats |

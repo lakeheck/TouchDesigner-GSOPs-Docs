@@ -4,7 +4,9 @@
 
 # Convert to ParticleSystem
 
-`gsop_particle_system` · Edit
+`gsop_particle_system` · Edit · Internal
+
+> **Note:** Convert to ParticleSystem is embedded inside `gsop_splat_scene_particles` and is not listed in the OP Create menu. Use it through that operator.
 
 Used inside the particle system scene generator (`gsop_splat_scene_particles`) to convert splats into a particle system.
 
