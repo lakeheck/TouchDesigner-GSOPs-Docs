@@ -28,7 +28,7 @@ See below for usage, licensing and examples. There is a free version with basic 
 
 ## Installation
 
-**Prerequisite:** TouchDesigner 2025.33060 or later (see Usage Notes below)
+**Prerequisite:** TouchDesigner 2025.33070 or later (see Usage Notes below)
 
 Download the latest release from **[Patreon here](https://www.patreon.com/collection/2236690)**. The zip contains:
 
@@ -56,7 +56,7 @@ This will include the bare bones needed to load several splats and render them q
 
 ### Usage Notes
 
-1. Built on Windows 11, Intel i9 14900, RTX 4090 24GB VRAM, TD 2025.33060
+1. Built on Windows 11, Intel i9 14900, RTX 4090 24GB VRAM, TD 2025.33070
     - Splats consume VRAM — save often
     - Also tested on macOS (M3 chip). Working well but please report issues as you come across them. 
 3. Intended for use with a Commercial TouchDesigner license for full features, but most operators work on Non-Commercial too.

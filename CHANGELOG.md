@@ -10,9 +10,13 @@ All notable changes to GSOPs are documented here. Format follows
 **0.1.61** (2026-07-20) — earlier `0.1.x` patch releases predate this file and
 are not itemized.
 
-## [Unreleased]
+## [1.0.1] — 2026-08-27
+
+First 1.0 release. 360° rendering (equirectangular + cubemap), attribute blur,
+and a rebuilt manifest/versioning pipeline.
 
 ### Changed
+- **Minimum TouchDesigner version is now 2025.33070** (up from 2025.33060).
 - **Internal operators hidden from the OP Create menu.** `gsop_load_splat`,
   `gsop_particle_system`, and `gsop_control_panel` are embedded in the scene
   generators (`gsop_splat_scene` / `gsop_splat_scene_particles`) and are no
